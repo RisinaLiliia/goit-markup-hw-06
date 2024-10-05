@@ -34,7 +34,9 @@
             <li class="nav-item">
               <a href="#section-portfolio" class="nav-link">Portfolio</a>
             </li>
-            <li class="nav-item"><a href="#section-team" class="nav-link">Contacts</a></li>
+            <li class="nav-item">
+              <a href="#section-team" class="nav-link">Contacts</a>
+            </li>
           </ul>
         </nav>
         <address class="address">
@@ -80,15 +82,19 @@
           <address class="mobile-address">
             <ul class="mobile-address-list">
               <li class="mobile-address-item">
-                <a href="mailto:info@devstudio.com" class="address-link">info@devstudio.com</a>
+                <a href="mailto:info@devstudio.com" class="address-link"
+                  >info@devstudio.com</a
+                >
               </li>
               <li class="mobile-address-item">
-                <a href="tel:+110001111111" class="address-link">+11 (000) 111-11-11</a>
+                <a href="tel:+110001111111" class="address-link"
+                  >+11 (000) 111-11-11</a
+                >
               </li>
             </ul>
           </address>
-          <div class="social-icons">
-            <ul class="traling-icons">
+          <div class="social-icons mobile-social-icons">
+            <ul class="traling-icons mobile-traling-icons">
               <li class="team-traling-icon">
                 <a class="team-traling" href="#" target="_blank">
                   <svg class="icon" width="16" height="16">
@@ -126,7 +132,7 @@
       <section class="hero">
         <div class="container hero-container">
           <h1 class="hero-title">Effective Solutions for Your Business</h1>
-          <button class="hero-buton" type="button" data-modal-open>
+          <button class="hero-button" type="button" data-modal-open>
             Order Service
           </button>
         </div>
@@ -376,21 +382,41 @@
           <ul class="cart-portfolio">
             <li class="card">
               <div class="card-img">
-                <pictur>
-                  <source media="(min-width:1158px)" srcset="./images/section4/img-desktop-5.jpg 1x, ./images/section4/img-desktop@2x-5.jpg 2x">
-                  <source media="(min-width:768px)" srcset="./images/section4/img-tablet-5.jpg 1x, ./images/section4/img-tablet@2x-5.jpg 2x">
-                  <source media="(max-width:767px)" srcset="./images/section4/img-mobil-5.jpg 1x, ./images/section4/img-mobil@2x-5.jpg 2x">  
+                <picture>
+                  <source
+                    media="(min-width:1158px)"
+                    srcset="
+                      ./images/section4/img-desktop-5.jpg    1x,
+                      ./images/section4/img-desktop@2x-5.jpg 2x
+                    "
+                  />
+                  <source
+                    media="(min-width:768px)"
+                    srcset="
+                      ./images/section4/img-tablet-5.jpg    1x,
+                      ./images/section4/img-tablet@2x-5.jpg 2x
+                    "
+                  />
+                  <source
+                    media="(max-width:767px)"
+                    srcset="
+                      ./images/section4/img-mobil-5.jpg    1x,
+                      ./images/section4/img-mobil@2x-5.jpg 2x
+                    "
+                  />
                   <img
                     src="./images/section4/img-mobil-5.jpg"
                     alt="Banking App"
                     width="360"
-                  /></pictur>
-                  <p class="card-absolute">
+                  />
+                </picture>
+                <p class="card-absolute">
                   14 Stylish and User-Friendly App Design Concepts · Task
                   Manager App · Calorie Tracker App · Exotic Fruit Ecommerce App
                   · Cloud Storage App
                 </p>
               </div>
+
               <div class="card-content">
                 <h3 class="title-row">Banking App</h3>
                 <p class="title-row-discr">App</p>
@@ -398,10 +424,28 @@
             </li>
             <li class="card">
               <div class="card-img">
-                <pictur>
-                  <source media="(min-width:1158px)" srcset="./images/section4/img-desktop-4.jpg 1x, ./images/section4/img-desktop@2x-4.jpg 2x">
-                  <source media="(min-width:768px)" srcset="./images/section4/img-tablet-4.jpg 1x, ./images/section4/img-tablet@2x-4.jpg 2x">
-                  <source media="(max-width:767px)" srcset="./images/section4/img-mobil-4.jpg 1x, ./images/section4/img-mobil@2x-4.jpg 2x">  
+                <picture>
+                  <source
+                    media="(min-width:1158px)"
+                    srcset="
+                      ./images/section4/img-desktop-4.jpg    1x,
+                      ./images/section4/img-desktop@2x-4.jpg 2x
+                    "
+                  />
+                  <source
+                    media="(min-width:768px)"
+                    srcset="
+                      ./images/section4/img-tablet-4.jpg    1x,
+                      ./images/section4/img-tablet@2x-4.jpg 2x
+                    "
+                  />
+                  <source
+                    media="(max-width:767px)"
+                    srcset="
+                      ./images/section4/img-mobil-4.jpg    1x,
+                      ./images/section4/img-mobil@2x-4.jpg 2x
+                    "
+                  />
                   <img
                     src="./images/section4/img-mobil-4.jpg"
                     alt="Cashless Payment"
@@ -421,10 +465,28 @@
             </li>
             <li class="card">
               <div class="card-img">
-                <pictur>
-                  <source media="(min-width:1158px)" srcset="./images/section4/img-desktop-3.jpg 1x, ./images/section4/img-desktop@2x-3.jpg 2x">
-                  <source media="(min-width:768px)" srcset="./images/section4/img-tablet-3.jpg 1x, ./images/section4/img-tablet@2x-3.jpg 2x">
-                  <source media="(max-width:767px)" srcset="./images/section4/img-mobil-3.jpg 1x, ./images/section4/img-mobil@2x-3.jpg 2x">
+                <picture>
+                  <source
+                    media="(min-width:1158px)"
+                    srcset="
+                      ./images/section4/img-desktop-3.jpg    1x,
+                      ./images/section4/img-desktop@2x-3.jpg 2x
+                    "
+                  />
+                  <source
+                    media="(min-width:768px)"
+                    srcset="
+                      ./images/section4/img-tablet-3.jpg    1x,
+                      ./images/section4/img-tablet@2x-3.jpg 2x
+                    "
+                  />
+                  <source
+                    media="(max-width:767px)"
+                    srcset="
+                      ./images/section4/img-mobil-3.jpg    1x,
+                      ./images/section4/img-mobil@2x-3.jpg 2x
+                    "
+                  />
                   <img
                     src="./images/section4/img-mobil-3.jpg"
                     alt="Meditation App"
@@ -444,14 +506,29 @@
             </li>
             <li class="card">
               <div class="card-img">
-                <pictur>
-                <source media="(min-width:1158px)" srcset="./images/section4/img-desktop-2.jpg 1x, ./images/section4/img-desktop@2x-2.jpg 2x">
-                <source media="(min-width:768px)" srcset="./images/section4/img-tablet-2.jpg 1x, ./images/section4/img-tablet@2x-2.jpg 2x">
-                <source media="(max-width:767px)" srcset="./images/section4/img-mobil-2.jpg 1x, ./images/section4/img-mobil@2x-2.jpg 2x">
-                <img
-                  src="./images/section4/img-mobil-2.jpg"
-                  alt="Taxi Service"
-                  width="360"
+                <picture>
+                  <source
+                    media="(min-width:1158px)"
+                    srcset="
+                      ./images/section4/img-desktop-2.jpg    1x,
+                      ./images/section4/img-desktop@2x-2.jpg 2x
+                    " />
+                  <source
+                    media="(min-width:768px)"
+                    srcset="
+                      ./images/section4/img-tablet-2.jpg    1x,
+                      ./images/section4/img-tablet@2x-2.jpg 2x
+                    " />
+                  <source
+                    media="(max-width:767px)"
+                    srcset="
+                      ./images/section4/img-mobil-2.jpg    1x,
+                      ./images/section4/img-mobil@2x-2.jpg 2x
+                    " />
+                  <img
+                    src="./images/section4/img-mobil-2.jpg"
+                    alt="Taxi Service"
+                    width="360"
                 /></picture>
                 <p class="card-absolute">
                   14 Stylish and User-Friendly App Design Concepts · Task
@@ -466,15 +543,30 @@
             </li>
             <li class="card">
               <div class="card-img">
-                <pictur>
-                  <source media="(min-width:1158px)" srcset="./images/section4/img-desktop-1.jpg 1x, ./images/section4/img-desktop@2x-1.jpg 2x">
-                  <source media="(min-width:768px)" srcset="./images/section4/img-tablet-1.jpg 1x, ./images/section4/img-tablet@2x-1.jpg 2x">
-                  <source media="(max-width:767px)" srcset="./images/section4/img-mobil-1.jpg 1x, ./images/section4/img-mobil@2x-1.jpg 2x">
-                <img
-                  src="./images/section4/img-mobil-1.jpg"
-                  alt="Screen Illustrations"
-                  width="360"
-                /></pictur>
+                <picture>
+                  <source
+                    media="(min-width:1158px)"
+                    srcset="
+                      ./images/section4/img-desktop-1.jpg    1x,
+                      ./images/section4/img-desktop@2x-1.jpg 2x
+                    " />
+                  <source
+                    media="(min-width:768px)"
+                    srcset="
+                      ./images/section4/img-tablet-1.jpg    1x,
+                      ./images/section4/img-tablet@2x-1.jpg 2x
+                    " />
+                  <source
+                    media="(max-width:767px)"
+                    srcset="
+                      ./images/section4/img-mobil-1.jpg    1x,
+                      ./images/section4/img-mobil@2x-1.jpg 2x
+                    " />
+                  <img
+                    src="./images/section4/img-mobil-1.jpg"
+                    alt="Screen Illustrations"
+                    width="360"
+                /></picture>
                 <p class="card-absolute">
                   14 Stylish and User-Friendly App Design Concepts · Task
                   Manager App · Calorie Tracker App · Exotic Fruit Ecommerce App
@@ -488,16 +580,31 @@
             </li>
             <li class="card">
               <div class="card-img">
-                <pictur>
-                  <source media="(min-width:1158px)" srcset="./images/section4/img-desktop.jpg 1x, ./images/section4/img-desktop@2x.jpg 2x">
-                  <source media="(min-width:768px)" srcset="./images/section4/img-tablet.jpg 1x, ./images/section4/img-tablet@2x.jpg 2x">
-                  <source media="(max-width:767px)" srcset="./images/section4/img-mobil.jpg 1x, ./images/section4/img-mobil@2x.jpg 2x">
-                 
-                <img
-                  src="./images/section4/img-mobil.jpg"
-                  alt="Online Courses"
-                  width="360"
-                /></pictur>
+                <picture>
+                  <source
+                    media="(min-width:1158px)"
+                    srcset="
+                      ./images/section4/img-desktop.jpg    1x,
+                      ./images/section4/img-desktop@2x.jpg 2x
+                    " />
+                  <source
+                    media="(min-width:768px)"
+                    srcset="
+                      ./images/section4/img-tablet.jpg    1x,
+                      ./images/section4/img-tablet@2x.jpg 2x
+                    " />
+                  <source
+                    media="(max-width:767px)"
+                    srcset="
+                      ./images/section4/img-mobil.jpg    1x,
+                      ./images/section4/img-mobil@2x.jpg 2x
+                    " />
+
+                  <img
+                    src="./images/section4/img-mobil.jpg"
+                    alt="Online Courses"
+                    width="360"
+                /></picture>
                 <p class="card-absolute">
                   14 Stylish and User-Friendly App Design Concepts · Task
                   Manager App · Calorie Tracker App · Exotic Fruit Ecommerce App
@@ -661,8 +768,10 @@
                   <use href="./images/icons.svg#icon-click"></use>
                 </svg>
               </span>
-              <span class="privacy-policy">I accept the terms and conditions of the
-              <a href="#" class="privacy-link">Privacy Policy</a></span>
+              <span class="privacy-policy"
+                >I accept the terms and conditions of the
+                <a href="#" class="privacy-link">Privacy Policy</a></span
+              >
             </label>
           </div>
           <button type="submit" class="submit-btn" data-modal>Send</button>
